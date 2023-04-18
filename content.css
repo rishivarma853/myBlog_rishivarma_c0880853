@@ -1,0 +1,130 @@
+
+/* Header styling */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  h1 {
+	margin: 0;
+  }
+  
+  nav {
+	margin-top: 20px;
+  }
+  
+  nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+  }
+  
+  nav ul li {
+	margin: 0 10px;
+  }
+  
+  nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+  }
+  
+  /* Main section styling */
+  main {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+  }
+  
+  section {
+    float: right;
+    width: 50%;
+    padding-left: 20px;
+}
+
+  h2 {
+	font-size: 28px;
+	margin-top: 0;
+  }
+  
+  form {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  label {
+	font-size: 18px;
+	margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 5px;
+  }
+  
+  input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 10px;
+	cursor: pointer;
+	font-size: 18px;
+  }
+  
+  /* Aside styling */
+  aside {
+	width: 30%;
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  aside h2 {
+	font-size: 24px;
+	margin-top: 0;
+  }
+  
+  aside ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  aside ul li {
+	margin-top: 10px;
+  }
+  
+  /* Footer styling */
+  footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+  }
+
+  .hobby-image {
+	width: 100px;
+	height: 100px;
+	transition: transform 0.2s;
+	margin-right: 20px;
+  }
+  
+  .hobby-image:hover {
+	transform: scale(1.2);
+  }
+
+
+  

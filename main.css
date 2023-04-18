@@ -1,0 +1,200 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  h5 {
+    font-size: 16px;
+  }
+  
+  h6 {
+    font-size: 14px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 48px;
+  }
+  
+  header p {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #0077cc;
+  }
+  
+  main {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  section {
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  section h2 {
+    font-size: 28px;
+    margin-top: 0;
+  }
+  
+  section img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  section table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+  }
+  
+  section th,
+  section td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #ddd;
+  }
+  
+  section th {
+    background-color: #f2f2f2;
+    font-weight: normal;
+  }
+  
+  section td:first-child,
+  section th:first-child {
+    border-left: none;
+  }
+  
+  section td:last-child,
+  section th:last-child {
+    border-right: none;
+  }
+  
+  section tr:first-child th,
+  section tr:first-child td {
+    border-top: none;
+  }
+  
+  section tr:last-child th,
+  section tr:last-child td {
+    border-bottom: none;
+  }
+  
+  aside {
+    flex: 1;
+  }
+  
+  aside h3 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  
+  aside img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  aside ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  aside li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Custom styles */
+  
+  /* Navigation bar */
+  nav {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin-right: 30px;
+  }
+  
+  nav a {
+    color: #333;
+  }  
